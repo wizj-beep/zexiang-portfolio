@@ -17,9 +17,25 @@
         document.head.appendChild(poster);
       }
     </script>
-    <script defer  type="module" crossorigin src="./assets/index-D9RYPlc4.js"></script>
+    <script defer  type="module" crossorigin src="./assets/index-BzHDfL97.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/style-IQe6Zwkj.css">
-  
+  <script>
+  (function () {
+    var match = /^#\/project\/([\w-]+)$/.exec(location.hash);
+    if (!match) return;
+    var cover = {"p-d7441c53d3":["previews/c3a3ceeab9ce2329-1360.webp","previews/c3a3ceeab9ce2329-720.webp",720,1359],"p-26d5d333e1":["previews/b17aa5bf8a97a711-1360.webp","previews/b17aa5bf8a97a711-720.webp",720,1359],"p-5c6125375a":["previews/390ad2aadd15a9d2-1360.webp","previews/390ad2aadd15a9d2-720.webp",720,1359],"p-876905b489":["previews/4d5621a0ad9645fb-1360.webp","previews/4d5621a0ad9645fb-720.webp",719,1360],"p-6b632b1414":["previews/f63507e42efef280-1360.webp","previews/f63507e42efef280-720.webp",720,1359],"p-185fe23193":["previews/80b0cd9a4daf87c3-1360.webp","previews/80b0cd9a4daf87c3-720.webp",720,1360],"p-c58a5d9d64":["previews/1527031ec4e5dca5-1360.webp","previews/1527031ec4e5dca5-720.webp",720,1360],"p-ffc15edc18":["previews/8c648900431f434f-1360.webp","previews/8c648900431f434f-720.webp",720,1360],"p-ed49bc48bb":["previews/c49ae2770c1f6a39-1360.webp","previews/c49ae2770c1f6a39-720.webp",720,1263],"p-abc41a451a":["previews/5f9e7f35620e9253-1360.webp","previews/5f9e7f35620e9253-720.webp",720,1360],"p-13983f61c5":["previews/e65fe1eaf7efa046-1360.webp","previews/e65fe1eaf7efa046-720.webp",720,1360],"p-f867fdd0f7":["previews/5350a9e55e414046-1360.webp","previews/5350a9e55e414046-720.webp",719,1080],"p-e45babcd50":["previews/ee135e337a44609e-1360.webp","previews/ee135e337a44609e-720.webp",720,1359],"p-48419c67cb":["previews/be706ccd889d90a7-1360.webp","previews/be706ccd889d90a7-720.webp",720,1360],"p-862eea1fe1":["previews/33def0b034ba6a2b-1360.webp","previews/33def0b034ba6a2b-720.webp",720,1360],"p-b0680cde18":["previews/a3bf659a4b70e19f-1360.webp","previews/a3bf659a4b70e19f-720.webp",720,1359],"p-04b2c70833":["previews/7fa6ef733f4d2f52-1360.webp","previews/7fa6ef733f4d2f52-720.webp",720,1360],"p-a543789365":["previews/4e0e1d49bb137e7c-1360.webp","previews/4e0e1d49bb137e7c-720.webp",720,1360],"p-4063659a1a":["previews/c52fc1b8f290cea9-1360.webp","previews/c52fc1b8f290cea9-720.webp",720,1360],"p-9b5e239a2c":["previews/121dc75a148daa0f-1360.webp","previews/121dc75a148daa0f-720.webp",720,1360],"p-6889ac7bfb":["previews/8311a7ed4dd576ff-1360.webp","previews/8311a7ed4dd576ff-720.webp",720,1360]}[match[1]];
+    if (!cover) return;
+    var link = document.createElement('link');
+    link.rel = 'preload'; link.as = 'image'; link.fetchPriority = 'high';
+    link.href = './' + cover[0];
+    if (cover[2] && cover[2] < cover[3]) {
+      if (!('imageSrcset' in link)) return;
+      link.imageSrcset = './' + cover[1] + ' ' + cover[2] + 'w, ./' + cover[0] + ' ' + cover[3] + 'w';
+      link.imageSizes = '(max-width: 600px) 92vw, 90vw';
+    }
+    document.head.appendChild(link);
+  })();
+  </script>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="钟泽祥丨品牌视觉设计作品集" />
     <meta property="og:description" content="专注医疗、工业等领域品牌视觉设计。品牌物料、宣传全案与线上传播视觉。" />
